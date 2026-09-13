@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal Portfolio Website of Khush Taneja - Full-Stack Developer & Computer Science Student at Sharda University.">
+  <meta name="keywords" content="Khush Taneja, Portfolio, Web Developer, Full-Stack Developer, BCA, Sharda University, React, Node.js, Python">
+  <meta name="author" content="Khush Taneja">
+  <title>Khush Taneja | Personal Portfolio</title>
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+  
+  <!-- Main Stylesheet (Pure CSS3) -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Header & Navigation Bar -->
+  <header class="navbar-header">
+    <div class="container navbar-container">
+      <a href="#home" class="brand-logo">
+        <span class="logo-box">KT</span>
+        <span class="logo-text">Khush Taneja</span>
+      </a>
+
+      <!-- Pure CSS Mobile Hamburger Toggle -->
+      <input type="checkbox" id="nav-toggle" class="nav-toggle">
+      <label for="nav-toggle" class="nav-toggle-label" aria-label="Toggle navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <nav class="nav-menu">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About Me</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects &amp; Work</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link nav-btn">Contact Me</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content Wrapper -->
+  <main>
+    
+    <!-- Hero / Home Section -->
+    <section id="home" class="hero-section">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="pulse-dot"></span> Available for Software Engineering Opportunities
+          </div>
+          <h1 class="hero-title">
+            Hi, I'm <span class="highlight-text">Khush Taneja</span>
+          </h1>
+          <h2 class="hero-subtitle">Software Developer Intern &amp; Computer Science Scholar</h2>
+          <p class="hero-bio">
+            A passionate BCA student at Sharda University specializing in modern web architectures, 
+            MERN stack development, RESTful APIs, and AI-driven applications. Dedicated to crafting clean, high-performance, and user-centric software solutions.
+          </p>
+          <div class="hero-objective">
+            <span class="objective-label">Career Objective:</span>
+            <p>To leverage strong software engineering skills, algorithm design, and full-stack expertise in a dynamic organization to build scalable applications and contribute to high-impact technical solutions.</p>
+          </div>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">View Projects</a>
+            <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+          </div>
+        </div>
+
+        <div class="hero-image-wrapper">
+          <div class="profile-card">
+            <div class="profile-img-container">
+              <img src="images/profile.jpg" alt="Khush Taneja Profile Photograph" class="profile-img">
+            </div>
+            <div class="profile-badge">
+              <span class="badge-title">CGPA 9.65 / 10.0</span>
+              <span class="badge-sub">Academic Excellence</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="about-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Get To Know Me</span>
+          <h2 class="section-title">About Me</h2>
+          <div class="title-underline"></div>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card intro-card">
+            <div class="card-icon">👨‍💻</div>
+            <h3>Who I Am</h3>
+            <p>
+              I am a dedicated Computer Science student currently pursuing my Bachelor of Computer Applications (BCA) at Sharda University, Agra. With a strong foundation in full-stack web development and core computer science fundamentals, I thrive on solving complex technical challenges.
+            </p>
+            <p>
+              Currently working as a <strong>Software Developer Intern at BCS Infallible Technologies</strong>, I actively contribute to building RESTful APIs, managing Firestore databases, and developing clean frontend components within Agile sprint cycles.
+            </p>
+          </div>
+
+          <div class="about-card interests-card">
+            <div class="card-icon">🎯</div>
+            <h3>Interests &amp; Hobbies</h3>
+            <ul class="styled-list">
+              <li><strong>Web Development:</strong> Building modern, responsive single-page web applications.</li>
+              <li><strong>AI &amp; NLP Solutions:</strong> Exploring machine learning frameworks and intelligent automation.</li>
+              <li><strong>Public Speaking &amp; Anchoring:</strong> Leading national-level events and live technical stage flows.</li>
+              <li><strong>Open Source &amp; Tech Community:</strong> Collaborating on developer tools and continuous learning.</li>
+            </ul>
+          </div>
+
+          <div class="about-card goals-card">
+            <div class="card-icon">🚀</div>
+            <h3>Career Goals</h3>
+            <div class="goal-item">
+              <h4>Short-Term Goal</h4>
+              <p>Master advanced full-stack architectures, excel in competitive software development roles, and maintain top-tier academic excellence.</p>
+            </div>
+            <div class="goal-item">
+              <h4>Long-Term Goal</h4>
+              <p>Become a Principal Software Architect / AI Solutions Engineer, leading technical innovation and driving transformative digital products globally.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Academic Background</span>
+          <h2 class="section-title">Education Qualifications</h2>
+          <div class="title-underline"></div>
+        </div>
+
+        <p class="section-description">
+          Detailed overview of my academic progression, institutions attended, and overall academic performance.
+        </p>
+
+        <!-- Education Table -->
+        <div class="table-responsive">
+          <table class="education-table">
+            <thead>
+              <tr>
+                <th>Degree / Course</th>
+                <th>Institution</th>
+                <th>Board / University</th>
+                <th>Duration / Year</th>
+                <th>Score / Grade</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="highlight-row">
+                <td data-label="Degree / Course">
+                  <strong>Bachelor of Computer Applications (BCA)</strong>
+                  <span class="table-sub">Core CS &amp; Software Engineering</span>
+                </td>
+                <td data-label="Institution">Sharda University, Agra</td>
+                <td data-label="Board / University">Sharda University</td>
+                <td data-label="Duration / Year">Aug 2024 – Present</td>
+                <td data-label="Score / Grade"><span class="score-pill">CGPA: 9.65 / 10.0</span></td>
+              </tr>
+              <tr>
+                <td data-label="Degree / Course">
+                  <strong>Higher Secondary Education (12th)</strong>
+                  <span class="table-sub">Science Stream</span>
+                </td>
+                <td data-label="Institution">SSA Vidyapeeth, Kiraoli, Agra</td>
+                <td data-label="Board / University">CBSE Board</td>
+                <td data-label="Duration / Year">2020 – 2022</td>
+                <td data-label="Score / Grade"><span class="score-pill score-neutral">79.2%</span></td>
+              </tr>
+              <tr>
+                <td data-label="Degree / Course">
+                  <strong>High School (10th)</strong>
+                  <span class="table-sub">General Secondary Education</span>
+                </td>
+                <td data-label="Institution">St. Peter’s College, Agra</td>
+                <td data-label="Board / University">ICSE Board</td>
+                <td data-label="Duration / Year">2019 – 2020</td>
+                <td data-label="Score / Grade"><span class="score-pill score-neutral">90.0%</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!-- Relevant Coursework -->
+        <div class="coursework-box">
+          <h3>Key Academic Coursework</h3>
+          <div class="coursework-tags">
+            <span class="tag">Data Structures &amp; Algorithms</span>
+            <span class="tag">Database Management Systems (DBMS)</span>
+            <span class="tag">Operating Systems</span>
+            <span class="tag">Web Technologies</span>
+            <span class="tag">Object-Oriented Programming (OOP)</span>
+            <span class="tag">Cloud Computing</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Technical Competencies</span>
+          <h2 class="section-title">Skills &amp; Expertise</h2>
+          <div class="title-underline"></div>
+        </div>
+
+        <div class="skills-grid">
+          
+          <!-- Category 1 -->
+          <div class="skills-category-card">
+            <div class="category-header">
+              <span class="category-icon">💻</span>
+              <h3>Languages &amp; Web</h3>
+            </div>
+            <div class="skill-items">
+              <div class="skill-item">
+                <span class="skill-name">JavaScript (ES6+)</span>
+                <div class="bar-container"><div class="bar-fill" style="width: 90%;"></div></div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">HTML5 &amp; CSS3</span>
+                <div class="bar-container"><div class="bar-fill" style="width: 95%;"></div></div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">Python</span>
+                <div class="bar-container"><div class="bar-fill" style="width: 85%;"></div></div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">SQL</span>
+                <div class="bar-container"><div class="bar-fill" style="width: 80%;"></div></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 2 -->
+          <div class="skills-category-card">
+            <div class="category-header">
+              <span class="category-icon">⚛️</span>
+              <h3>Frameworks &amp; Libraries</h3>
+            </div>
+            <div class="skill-items">
+              <div class="skill-item">
+                <span class="skill-name">React.js / Vite</span>
+                <div class="bar-container"><div class="bar-fill" style="width: 88%;"></div></div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">Node.js &amp; Express.js</span>
+                <div class="bar-container"><div class="bar-fill" style="width: 85%;"></div></div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">Redux State Management</span>
+                <div class="bar-container"><div class="bar-fill" style="width: 78%;"></div></div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">Tailwind CSS</span>
+                <div class="bar-container"><div class="bar-fill" style="width: 82%;"></div></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 3 -->
+          <div class="skills-category-card">
+            <div class="category-header">
+              <span class="category-icon">🗄️</span>
+              <h3>Databases &amp; Cloud</h3>
+            </div>
+            <div class="skill-items">
+              <div class="skill-item">
+                <span class="skill-name">Firebase (Firestore/Auth)</span>
+                <div class="bar-container"><div class="bar-fill" style="width: 90%;"></div></div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">MongoDB</span>
+                <div class="bar-container"><div class="bar-fill" style="width: 82%;"></div></div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">MySQL</span>
+                <div class="bar-container"><div class="bar-fill" style="width: 80%;"></div></div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">PostgreSQL</span>
+                <div class="bar-container"><div class="bar-fill" style="width: 75%;"></div></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 4 -->
+          <div class="skills-category-card">
+            <div class="category-header">
+              <span class="category-icon">🛠️</span>
+              <h3>Tools &amp; Methodologies</h3>
+            </div>
+            <div class="skill-items">
+              <div class="skill-item">
+                <span class="skill-name">Git &amp; GitHub</span>
+                <div class="bar-container"><div class="bar-fill" style="width: 92%;"></div></div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">RESTful APIs &amp; Postman</span>
+                <div class="bar-container"><div class="bar-fill" style="width: 88%;"></div></div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">JWT Authentication</span>
+                <div class="bar-container"><div class="bar-fill" style="width: 85%;"></div></div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">Agile / Scrum &amp; MVC</span>
+                <div class="bar-container"><div class="bar-fill" style="width: 86%;"></div></div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Soft Skills & Leadership Ribbon -->
+        <div class="soft-skills-container">
+          <h3>Soft Skills &amp; Interpersonal Strengths</h3>
+          <div class="soft-skill-chips">
+            <span class="chip">🎤 Public Speaking</span>
+            <span class="chip">📢 Anchoring &amp; Event Management</span>
+            <span class="chip">👥 Team Leadership</span>
+            <span class="chip">🧩 Complex Problem Solving</span>
+            <span class="chip">⚡ Adaptability &amp; Agile Execution</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects & Achievements Section -->
+    <section id="projects" class="projects-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Portfolio Showcase</span>
+          <h2 class="section-title">Projects &amp; Achievements</h2>
+          <div class="title-underline"></div>
+        </div>
+
+        <!-- Subheading: Featured Projects -->
+        <h3 class="subsection-title">Featured Projects</h3>
+
+        <div class="projects-grid">
+          
+          <!-- Project 1 -->
+          <article class="project-card">
+            <div class="project-header">
+              <span class="project-year">2026</span>
+              <h4 class="project-title">CitizenShield – Suspicious Activity Reporting System</h4>
+            </div>
+            <p class="project-description">
+              Full-stack web application designed for reporting and monitoring suspicious community activities in real-time. Features an admin dashboard, status workflows (Pending &rarr; Verified &rarr; Resolved), image attachments, and XSS-protected inputs.
+            </p>
+            <div class="tech-stack">
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>JavaScript</span>
+              <span>Firebase Firestore</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/khushtaneja" target="_blank" rel="noopener noreferrer" class="project-btn">
+                <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                GitHub Repository
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card">
+            <div class="project-header">
+              <span class="project-year">2026</span>
+              <h4 class="project-title">Employee Management System</h4>
+            </div>
+            <p class="project-description">
+              Serverless enterprise application built with React 19, Vite, and Firebase. Implements role-based access control (Admin CRUD vs User read-only) with employee lifecycle management and responsive glassmorphic UI.
+            </p>
+            <div class="tech-stack">
+              <span>React 19</span>
+              <span>Vite</span>
+              <span>Firebase Auth</span>
+              <span>React Router v7</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/khushtaneja" target="_blank" rel="noopener noreferrer" class="project-btn">
+                <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                GitHub Repository
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="project-card">
+            <div class="project-header">
+              <span class="project-year">2025</span>
+              <h4 class="project-title">AI Study Assistant</h4>
+            </div>
+            <p class="project-description">
+              Intelligent full-stack study platform using Python NLP algorithms to automatically extract key concepts, generate interactive summaries, flashcards, and quizzes from uploaded course materials.
+            </p>
+            <div class="tech-stack">
+              <span>Python NLP</span>
+              <span>React.js</span>
+              <span>Node.js</span>
+              <span>Express.js</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/khushtaneja" target="_blank" rel="noopener noreferrer" class="project-btn">
+                <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                GitHub Repository
+              </a>
+            </div>
+          </article>
+
+        </div>
+
+        <!-- Subheading: Certifications & Key Achievements -->
+        <h3 class="subsection-title margin-top-large">Certifications &amp; Achievements</h3>
+
+        <div class="achievements-grid">
+          
+          <div class="achievement-card">
+            <div class="achievement-icon">📜</div>
+            <div class="achievement-details">
+              <h4>NPTEL Python for Data Science</h4>
+              <p class="issuer">IIT Madras | 2026</p>
+              <p>National certification program covering data manipulation, numerical analysis, and machine learning foundation in Python.</p>
+            </div>
+          </div>
+
+          <div class="achievement-card">
+            <div class="achievement-icon">🎓</div>
+            <div class="achievement-details">
+              <h4>Oracle Certified AI Foundations Associate</h4>
+              <p class="issuer">Oracle | 2025</p>
+              <p>Official Oracle completion certificate validating core concepts of Artificial Intelligence, Deep Learning, and AI Infrastructure.</p>
+            </div>
+          </div>
+
+          <div class="achievement-card">
+            <div class="achievement-icon">⭐</div>
+            <div class="achievement-details">
+              <h4>Academic Excellence Award</h4>
+              <p class="issuer">Sharda University | 2024 – Present</p>
+              <p>Secured an outstanding CGPA of 9.65 / 10.0 in the Bachelor of Computer Applications program.</p>
+            </div>
+          </div>
+
+          <div class="achievement-card">
+            <div class="achievement-icon">🎙️</div>
+            <div class="achievement-details">
+              <h4>Anchoring Team Lead &amp; Event Management</h4>
+              <p class="issuer">National Level AI Conference – Sharda University | Feb 2025</p>
+              <p>Led the anchoring team for a national AI conference with 300+ attendees; managed stage flow, speaker introductions, and live Q&amp;A sessions.</p>
+            </div>
+          </div>
+
+          <div class="achievement-card wide-card">
+            <div class="achievement-icon">📑</div>
+            <div class="achievement-details">
+              <h4>National Conference Research Paper Presentation</h4>
+              <p class="issuer">Inspire 2K26 – Sharda School of Business Studies, Agra | 2026</p>
+              <p>Presented a research paper titled <em>"A Permissioned Blockchain-AI Framework for Enhanced Carbon Credit Verification, Anomaly Detection, and Dynamic Pricing Optimization."</em></p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Let's Connect</span>
+          <h2 class="section-title">Contact Me</h2>
+          <div class="title-underline"></div>
+        </div>
+
+        <div class="contact-wrapper">
+          
+          <!-- Contact Direct Info -->
+          <div class="contact-info">
+            <h3>Get In Touch</h3>
+            <p>Feel free to reach out for software development internships, collaborative projects, technical inquiries, or public speaking opportunities.</p>
+            
+            <div class="info-items">
+              <div class="info-item">
+                <div class="info-icon">📧</div>
+                <div>
+                  <span class="info-label">Email Address</span>
+                  <a href="mailto:aceskhush01@gmail.com" class="info-value">aceskhush01@gmail.com</a>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <div class="info-icon">📞</div>
+                <div>
+                  <span class="info-label">Phone Number</span>
+                  <a href="tel:+918279991649" class="info-value">+91 82799 91649</a>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <div class="info-icon">📍</div>
+                <div>
+                  <span class="info-label">Location</span>
+                  <span class="info-value">Agra, Uttar Pradesh, India</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Social Profiles (Mandatory Links) -->
+            <div class="social-links-box">
+              <h4>Social Profiles</h4>
+              <div class="social-buttons">
+                <!-- GitHub Profile Link -->
+                <a href="https://github.com/khushtaneja" target="_blank" rel="noopener noreferrer" class="social-btn github-btn">
+                  <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                  <span>GitHub Profile</span>
+                </a>
+
+                <!-- LinkedIn Profile Link -->
+                <a href="https://linkedin.com/in/khush-taneja" target="_blank" rel="noopener noreferrer" class="social-btn linkedin-btn">
+                  <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                  <span>LinkedIn Profile</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Styled HTML Contact Form -->
+          <div class="contact-form-container">
+            <form class="contact-form" action="#" method="post">
+              <h3>Send Me A Message</h3>
+              
+              <div class="form-group">
+                <label for="name">Your Name <span class="required">*</span></label>
+                <input type="text" id="name" name="name" placeholder="e.g. Rahul Sharma" required>
+              </div>
+
+              <div class="form-group">
+                <label for="email">Your Email <span class="required">*</span></label>
+                <input type="email" id="email" name="email" placeholder="e.g. rahul@example.com" required>
+              </div>
+
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" placeholder="e.g. Internship Opportunity / Collaboration">
+              </div>
+
+              <div class="form-group">
+                <label for="message">Message <span class="required">*</span></label>
+                <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary submit-btn">
+                <span>Send Message</span>
+                <span class="btn-icon">&rarr;</span>
+              </button>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer Section -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-brand">
+        <a href="#home" class="footer-logo">Khush Taneja</a>
+        <p>Software Developer | BCA Scholar @ Sharda University</p>
+      </div>
+
+      <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Khush Taneja. Built with HTML5 &amp; CSS3 for Web Technologies Mini Project 1.</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
